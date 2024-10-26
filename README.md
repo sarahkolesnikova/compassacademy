@@ -20,6 +20,9 @@
 **Informação Complementar:** Em 2023 realizei um curso profissionalizante em Engenharia de Dados pela Impacta Tecnologia, através do programa Qualifica SP. E estou cursando a atualização profissional em Pensamento Computacional e Programação: Ensino Médio, oferecida pela Alura/EFAPE. 
 
 **Conhecimentos:**
+Soft Skills - Organização, Trabalho em equipe, Empatia, Adaptabilidade, Mentalidade sistêmica e analítica, resolução de problemas, liderança, comunicação eficaz, escuta ativa. 
+
+Hard Skills - 
 
 **Hobbies:** Natação, ler, assistir filmes e séries, ir em exposições artísticas e museus.
 
