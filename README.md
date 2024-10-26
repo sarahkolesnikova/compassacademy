@@ -20,8 +20,10 @@
 **Informação Complementar:** Em 2023 realizei um curso profissionalizante em Engenharia de Dados pela Impacta Tecnologia, através do programa Qualifica SP. E estou cursando a atualização profissional em Pensamento Computacional e Programação: Ensino Médio, oferecida pela Alura/EFAPE. 
 
 **Conhecimentos:**
+
 **Hobbies:** Natação, ler, assistir filmes e séries, ir em exposições artísticas e museus.
 
 
 ## Sprints 
-1. [Sprint 1](Sprint%201/README.md)
+
+1. [Sprint 1](Sprint-1/README.md)
