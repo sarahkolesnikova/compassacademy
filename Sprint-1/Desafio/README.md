@@ -15,8 +15,8 @@ Para agendamento no terminal, foi usado o comando *crontab -e* conforme imagem a
 
 ![Evidencia 3](../Evidencias/crontabe.png)
 
-Após os quatro dias de agendamento, elaborei o **Script 2** disponivel em [Script 2](Desafio/etapa-1) e finalizei a primeira etapa do desafio.  Os arquivos gerados (relatórios, csv's, códigos e imagens) podem ser acessador em [Evidencias](../Evidencias/).  A imagem a seguir mostra via terminal o que foi gerado como "entregaveis".
+Após os quatro dias de agendamento, elaborei o **Script 2** disponivel em [Script 2](../Evidencias/consolidador_de_processamento_de_vendas.sh) e finalizei a primeira etapa do desafio.  Os arquivos gerados (relatórios, csv's, códigos e imagens) podem ser acessados em [Evidencias](../Evidencias/).  A imagem a seguir mostra via terminal o que foi gerado como "entregaveis".
 
 ![Evidencia 4](../Evidencias/resultados_desafio.png)
 
-OBS: Apesar de agendar o **Script 1** para as 15:27 como pedido, apenas no dia 23/10/2024  o arquivo foi gerado nesse horário e não consegui identificar motivo do *delay* nos dias 21 e 24/10 já que o crontab aparecia ativo (ao consultar via terminal). 
+OBS: Apesar de agendar o **Script 1** para as 15:27 como pedido, apenas no dia 23/10/2024  o arquivo foi gerado nesse horário e não consegui identificar motivo do *delay* nos dias 21 e 24/10 já que o crontab aparecia ativo (ao consultar via terminal com o comando `sudo service cron status`). 
