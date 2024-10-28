@@ -1,7 +1,7 @@
 # Apresentação
 
  ## Olá, sou a Sarah Kolesnikova! 
- <!--![Foto do arquivo pessoal](imagens/)-->
+ [Foto do arquivo pessoal](img/Sarah.jpg)
 
 **Localização:** São Paulo - SP, Brasil.
 
@@ -22,7 +22,9 @@
 **Conhecimentos:**
 Soft Skills - Organização, Trabalho em equipe, Empatia, Adaptabilidade, Mentalidade sistêmica e analítica, resolução de problemas, liderança, comunicação eficaz, escuta ativa. 
 
-Hard Skills - 
+Hard Skills - Matemática, Estatística, C (iniciante), HTML, CSS, JavaScript (iniciante), Python (básico), SQL (iniciante), Linux, Shell Script, ETL, Scrum, Kanban. 
+
+Ferramentas - VS Code, Excel, Power BI, SQL Serve, Git e GitHub, Trello. 
 
 **Hobbies:** Natação, ler, assistir filmes e séries, ir em exposições artísticas e museus.
 
