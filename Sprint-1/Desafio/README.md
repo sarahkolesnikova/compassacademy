@@ -1,5 +1,5 @@
 
-### ETAPA 1 - Fundamentos de Linux 
+### Fundamentos de Linux 
 Iniciei o desafio da **Sprint 1** pela compreensão da situação problema proposta.  Minha squad nos primeiros dias se dedicou a que todos da equipe conseguissem  iniciar o desafio e, como síntese da discussão em grupo, elaborei um pseudocódigo em linhagem natural conforme imagem abaixo. 
 
 ![Evidencia 1](../Evidencias/pseudocodigo.png)
