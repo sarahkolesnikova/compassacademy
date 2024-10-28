@@ -20,7 +20,7 @@ Concluída a preparação, debrucei-me na escrita do **Script 1** "processamento
 
 O código do **Script 1** pode ser conferido em [Script 1](../Evidencias/processamento_de_vendas.sh)
 
-Para agendamento no terminal, foi usado o comando *crontab -e* conforme imagem a abaixo.
+Para agendamento no terminal, foi usado o comando `crontab -e` conforme imagem a abaixo.
 
 ![Evidencia 3](../Evidencias/crontabe.png)
 
