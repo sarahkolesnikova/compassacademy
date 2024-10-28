@@ -1,7 +1,7 @@
 # Apresentação
 
  ## Olá, sou a Sarah Kolesnikova! 
- [Foto do arquivo pessoal](img/Sarah.jpg)
+ ![Foto do arquivo pessoal](img/Sarah.jpg)
 
 **Localização:** São Paulo - SP, Brasil.
 
