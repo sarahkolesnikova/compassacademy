@@ -27,22 +27,22 @@ Outro assunto abordado foi a proposta de valor da AWS (Amazon Web Service) e con
 
 Ao executar o código dos exercícios 1 e 2 do caso de estudo da biblioteca, obtive o seguinte retorno: 
 
-![Exercício 1](evidencias/ex01.png)
+![Exercício 1](Evidencias/ex01.png)
 
 
-![Exercício 2 ](evidencias/ex02.png)
+![Exercício 2 ](Evidencias/ex02.png)
 
 Ao executar o código do exercício 12 do caso de estudo da loja, obtive o seguinte retorno: 
 
-![Exercício 12 ](evidencias/ex12.png)
+![Exercício 12 ](Evidencias/ex12.png)
 
 Os demais exercícios podem ser consultados [aqui](exercicios) 
 
 Ao realizar a exportação de dados para o csv, obtive as seguintes tabelas:
 
-![Exercício 17 ](evidencias/ex17.png)
+![Exercício 17 ](Evidencias/ex17.png)
 
-![Exercício 18 ](evidencias/ex18.png)
+![Exercício 18 ](Evidencias/ex18.png)
 
 # Certificados
 
