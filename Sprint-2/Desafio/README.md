@@ -188,7 +188,7 @@ Como podemos observar no diagrama de conjuntos a seguir:
 
 ![pessoas](../Evidencias/pessoas.png)
 
-Aplicando o roll-up:
+Aplicando o drill-up:
 
 ![pessoas](../Evidencias/roll-up.png)
 
