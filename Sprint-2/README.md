@@ -1,36 +1,52 @@
 # Resumo
-Nesta sprint aprendi sobre versionamento de código em Git, GitHub e comandos em Linux. 
+Nesta sprint aprendi sobre os Sistemas Gerenciadores de Base de Dados (SGBD) relacionais e a linguagem usada para sua execuções: o SQL (Structured Query Language); e suas subdivisões: DDL (Data Definition Language), DML (Data Manipulation Language), DQL (Data Query Language). Assim como os tipos de modelos de banco de dados: conceitual, lógico, físico e dimensional. 
+Como forma de consolidar os conhecimentos adquiridos, elaborei um modelo relacional e dimensional de uma base da dados no desafio da Sprint. 
+Outro assunto abordado foi a proposta de valor da AWS (Amazon Web Service) e conceitos fundamentais para os serviços de computação em nuvem. 
 
-**Git Hub:** Aprendi a utilizar o Git e GitHub de modo correto no dia a dia. Os conteúdos abordaram o gerenciamento de repositórios locais e em servidores externos, criar um portfólio com o GitHubPages, comandos básicos e avançados em Git para criar e compartilhar Gits, documentação em Markdown e também fluxo de controle de versionamento de um projeto. 
+# Exercícios
 
-**Linux:** Pude entender como funciona o sistema operacional Linux, assim como instalar a distribuição Ubuntu e seus principais conceitos. Aprendi comandos e técnicas de terminal; gerenciamento de usuários; grupos e permissões de arquivos e diretórios; gerenciamento de aplicações e pacotes; gerenciamento de redes; e a utilizar editores de texto como Vim e Nano.   
+|  Linguagem   |   SQL    |
+|------------ | ----- |
+| [Resposta Ex1.](Exercicios/ex01.sql) |   [Resposta Ex2.](Exercicios/ex02.sql)|
+| [Resposta Ex3.](Exercicios/ex03.sql) | [Resposta Ex4.](Exercicios/ex04.sql) |
+| [Resposta Ex5.](Exercicios/ex05.sql) |  [Resposta Ex6.](Exercicios/ex06.sql)|
+| [Resposta Ex7.](Exercicios/ex07.sql) |  [Resposta Ex8.](Exercicios/ex08.sql) |
+| [Resposta Ex9.](Exercicios/ex09.sql) |  [Resposta Ex10.](Exercicios/ex10.sql) | 
+| [Resposta Ex11.](Exercicios/ex11.sql) | [Resposta Ex12.](Exercicios/ex12.sql) |
+| [Resposta Ex13.](Exercicios/ex13.sql) | [Resposta Ex14.](Exercicios/ex14.sql) |
+| [Resposta Ex15.](Exercicios/ex15.sql) | [Resposta Ex16.](Exercicios/ex16.sql) |
+| [Resposta Ex17.](Exercicios/ex17.sql) |[Resposta Ex18.](Exercicios/ex18.sql) |
 
+| exportação de | arquivos csv|
+| --- | --- |
+| [ETAPA 1](Exercicios/ex17.csv) | [ETAPA 2](Exercicios/ex18.csv) |
 
 
 # Evidências
 
-Para o desafio da Sprint 1 criei um processador e gerador de relatório de vendas em Shell Script. Após 4 dias o código gerou os arquivos disponiveis na imagem abaixo.
 
-[Arquivos](Evidencias/resultados_desafio.png)
+Ao executar o código dos exercícios 1 e 2 do caso de estudo da biblioteca, obtive o seguinte retorno: 
 
-O arquivo executável do Script 1 pode ser acessado [aqui](Evidencias/processamento_de_vendas.sh).
+![Exercício 1](evidencias/ex01.png)
 
-O arquivo executável do Script 2 pode ser acessado [aqui](Evidencias/consolidador_de_processamento_de_vendas.sh)
 
-O relatório da execução do agendamento do dia 1 pode ser acessado [aqui](Evidencias/relatorio-20241021.txt)
+![Exercício 2 ](evidencias/ex02.png)
 
-A planilha de vendas o agendamento do dia 1 ode ser acessada [aqui](Evidencias/backup-dados-20241021.zip)
+Ao executar o código do exercício 12 do caso de estudo da loja, obtive o seguinte retorno: 
 
-O relatório da execução do agendamento do dia 2 pode ser acessado [aqui](Evidencias/relatorio-20241022.txt)
+![Exercício 12 ](evidencias/ex12.png)
 
-A planilha de vendas o agendamento do dia 2 ode ser acessada [aqui](Evidencias/backup-dados-20241022.zip)
+Os demais exercícios podem ser consultados [aqui](exercicios) 
 
-O relatório da execução do agendamento do dia 3 pode ser acessado [aqui](Evidencias/relatorio-20241023.txt)
+Ao realizar a exportação de dados para o csv, obtive as seguintes tabelas:
 
-A planilha de vendas o agendamento do dia 3 ode ser acessada [aqui](Evidencias/backup-dados-20241023.zip)
+![Exercício 17 ](evidencias/ex17.png)
 
-O relatório da execução do agendamento do dia 4 pode ser acessado [aqui](Evidencias/relatorio-20241024.txt)
+![Exercício 18 ](evidencias/ex18.png)
 
-A planilha de vendas do agendamento do dia 4 pode ser acessada [aqui](Evidencias/backup-dados-20241024.zip)
+# Certificados
 
-O relatório final da execução do agendamento do consolidador pode ser acessado [aqui](Evidencias/relatorio_final.txt)
+
+Certificado da AWS Skill Builder
+
+![AWS Partner Sales Accreditation](Certificados/AWS%20_partner%20_sales_accreditation.pdf)
