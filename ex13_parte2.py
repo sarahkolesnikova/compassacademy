@@ -1,2 +1,2 @@
-arquivo = open(arquivo_texto.txt)
+arquivo = open(arquivo_texto.txt, 'r')
 print (arquivo)
