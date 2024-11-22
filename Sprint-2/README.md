@@ -1,5 +1,5 @@
 # Resumo
-Nesta sprint aprendi sobre os Sistemas Gerenciadores de Base de Dados (SGBD) relacionais e a linguagem usada para sua execuções: o SQL (Structured Query Language); e suas subdivisões: DDL (Data Definition Language), DML (Data Manipulation Language), DQL (Data Query Language). Assim como os tipos de modelos de banco de dados: conceitual, lógico, físico e dimensional. 
+Nesta sprint aprendi sobre os Sistemas Gerenciadores de Banco de Dados (SGBD) relacionais e a linguagem usada para sua execuções: o SQL (Structured Query Language); e suas subdivisões: DDL (Data Definition Language), DML (Data Manipulation Language), DQL (Data Query Language). Assim como os tipos de modelos de banco de dados: conceitual, lógico, físico e dimensional. 
 Como forma de consolidar os conhecimentos adquiridos, elaborei um modelo relacional e dimensional de uma base da dados no desafio da Sprint. 
 Outro assunto abordado foi a proposta de valor da AWS (Amazon Web Service) e conceitos fundamentais para os serviços de computação em nuvem. 
 
