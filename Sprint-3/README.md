@@ -22,4 +22,4 @@ As evidências do desafio de Python podem ser acessadas [aqui](../Sprint-3/Evide
 
 Certificado da AWS Skill Builder
 
-![AWS Partner Sales Accreditation](Certificados/AWS%20_partner%20_sales_accreditation.pdf)
+![AWS Partner: Cloud Economics (Portuguese Brazil)](Certificados/AWS_Cloud_Economics.pdf)
