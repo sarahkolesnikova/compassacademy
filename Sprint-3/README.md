@@ -1,7 +1,7 @@
 # Resumo
 Nesta sprint aprendi sobre a linguagem Python.
-Como forma de consolidar os conhecimentos adquiridos, analisei um arquivo com estatísticas dos aplicativos da loja do Google e criei alguns gráficos que descrevem essas analises. 
-Outro assunto abordado foi a importância comercial da AWS (Amazon Web Service), as economias que ocorrem com o gerenciamento financeiro na nuvem e as principais práticas recomendadas.
+Como forma de consolidar os conhecimentos adquiridos, analisei um arquivo com estatísticas dos aplicativos da loja do Google e criei alguns gráficos que descrevem essas análises. 
+Outros assuntos abordados foram a importância comercial da AWS (Amazon Web Service), as economias que ocorrem com o gerenciamento financeiro na nuvem e as principais práticas recomendadas.
 
 # Exercícios
 
