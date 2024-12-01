@@ -1,0 +1,10 @@
+# FROM , COPY /ADD, WORKDIR,  CMD , RUN, EXPOSE, ENV, ENTRYPOINT, USER
+
+
+FROM pyhton:3
+
+WORKDIR /app
+
+COPY . /app
+
+CMD [ "pyhton" ]
