@@ -14,4 +14,19 @@
 # Na resolução da atividade você deverá aplicar as seguintes funções: max , zip , map
 
 def calcular_valor_maximo(operadores, operandos) -> float:
-    return print (max(map(lambda x: eval(f"{x[0]}{x[1][0]}{x[1][1]}"), zip(operadores, operandos))))
+    def aplicar_operacao(op, nums):
+        if op == '+':
+            return nums[0] + nums[1]
+        elif op == '-':
+            return nums[0] - nums[1]
+        elif op == '*':
+            return nums[0] * nums[1]
+        elif op == '/':
+            return nums[0] / nums[1]
+        elif op == '%':
+            return nums[0] % nums[1]
+        else:
+            raise ValueError(f"Operador desconhecido: {op}")
+
+    resultados = map(lambda x: aplicar_operacao(x[0], x[1]), zip(operadores, operandos))
+    return max(resultados)
