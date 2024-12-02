@@ -1,10 +1,10 @@
 # FROM , COPY /ADD, WORKDIR,  CMD , RUN, EXPOSE, ENV, ENTRYPOINT, USER
 
 
-FROM pyhton:3
+FROM python:3
 
 WORKDIR /app
 
-COPY . /app
+COPY . .
 
-CMD [ "pyhton" ]
+CMD [ "python",  "app/carguru.py" ]
