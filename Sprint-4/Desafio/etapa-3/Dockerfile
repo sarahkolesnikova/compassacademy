@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-CMD [ "python",  "script.py" ]
+CMD [ "python",  "mascarar-dados/script.py" ]
