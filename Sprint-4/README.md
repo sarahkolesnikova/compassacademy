@@ -22,7 +22,8 @@ As evidências do desafio podem ser acessadas [aqui](../Sprint-4/Evidencias/)
 # Certificados
 
 
-Certificado da AWS Skill Builder
+Certificados da AWS Skill Builder:
 
-![AWS Partner: Accreditation (Technical) ](Certificados/)
-![AWS Technical Essentials](Certificados/)
+[AWS Partner: Accreditation (Technical) ](Certificados/AWS_Partner_Accreditation_(Technical)_(Portuguese).pdf)
+
+[AWS Technical Essentials](Certificados/AWS_Technical_Essentials.pdf)
