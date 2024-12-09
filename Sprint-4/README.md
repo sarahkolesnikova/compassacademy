@@ -9,20 +9,20 @@ Outro assunto abordado foi a computação em nuvem da AWS (Amazon Web Service): 
 
 Nessa Sprint realizei exercícios sobre a programação funcional em Python.
 
-Clique [aqui](../Sprint-3/Exercicios/) para acessar a pasta com os exercícios.
+Clique [aqui](../Sprint-4/Exercicios/) para acessar a pasta com os exercícios.
 
 # Desafio
 
-Para acessar o desafio clique [aqui](../Sprint-3/Desafio/README.md)
+Para acessar o desafio clique [aqui](../Sprint-4/Desafio/README.md)
 
 # Evidências
 
-As evidências do desafio podem ser acessadas [aqui](../Sprint-3/Evidencias/)
+As evidências do desafio podem ser acessadas [aqui](../Sprint-4/Evidencias/)
 
 # Certificados
 
 
 Certificado da AWS Skill Builder
 
-![AWS Partner: Accreditation (Technical) ](Certificados/AWS_Cloud_Economics.pdf)
-![AWS Technical Essentials]()
+![AWS Partner: Accreditation (Technical) ](Certificados/)
+![AWS Technical Essentials](Certificados/)
