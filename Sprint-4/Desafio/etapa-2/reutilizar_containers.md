@@ -3,7 +3,7 @@
 
 RESPOSTA:
 
-Sim, é possível reutilizar containers. Para reiniciar um container pode-se usar o comando:
+Sim, é possível reutilizar containers. Para reiniciar um container, pode-se usar o comando:
 
 ````docker container start -ai carguru ````
 
@@ -13,5 +13,5 @@ Sim, é possível reutilizar containers. Para reiniciar um container pode-se usa
 
 (esse comando cria um novo arquivo no mesmo container)
 
-Para reutilizar containers é importante renomeá-los para algo relacionado ao que se está desenvolvendo, 
-assim fica mais fácil de identificá-lo no reuso. 
+Para reutilizar containers é importante renomeá-los para algo relacionado ao que se está desenvolvendo. 
+Assim fica mais fácil de identificá-lo no ambiente em que ele se encontra. 
