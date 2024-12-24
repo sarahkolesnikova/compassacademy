@@ -13,18 +13,64 @@ Foi necessário juntar os dois arquivos, pois eles se complementam (um com os da
 
 Os arquivos mencionados se tratavam de arquivos muito grandes, de Big Data, e como eu não possuo uma máquina adequada para lidar com eles então fiz um recorte para um dataset com os investidores que se cadastraram no programa em 2024 e operaram nele. 
 
+Confira o tratamento nas imagens a seguir:
+
+![evidencia01](../Evidencias/recorte01.png)
+
+![evidencia02](../Evidencias/recorte02.png)
+
+![evidencia03](../Evidencias/recorte03.png)
+
+![evidencia04](../Evidencias/recorte04.png)
+
+![evidencia05](../Evidencias/recorte05.png)
+
+![evidencia06](../Evidencias/recorte06.png)
+
+![evidencia07](../Evidencias/recorte07.png)
+
+![evidencia08](../Evidencias/recorte08.png)
+
+
 Para fazer esse recorte usei a biblioteca polars do python.
 
 Após fazer o recorte consegui subir o arquivo csv para o serviço S3 da AWS e prossegui para a análise da base de dados com a biblioteca pandas.
 
 Em um primeiro momento importei as bibliotecas citadas nas orientações, li o arquivo csv e identifiquei a necessidade de fazer conversões de dados em algumas colunas para fazer a análise. 
 
+
+Veja algumas manipulações abaixo:
+
+![desafio01](../Evidencias/desafio01.png)
+
+![desafio02](../Evidencias/desafio02.png)
+
+![desafio03](../Evidencias/desafio03.png)
+
+![desafio04](../Evidencias/desafio04.png)
+
+![desafio05](../Evidencias/desafio05.png)
 Como questão norteadora busquei traçar o perfil  dos investidores que aderiram ao tesouro direto em 2024 e operaram na modalidade compra no primeiro semestre. 
 
 Para isso filtrei entre entre os meses de janeiro a junho, agrupei por Tipo de Título, Mes da Operação, Genero, Profissão, UF do Investidor e agreguei esse dados com a media das idades e a soma da quantidade de compras realizadas. 
 
+![desafio06](../Evidencias/desafio06.png)
+
+![desafio07](../Evidencias/desafio07.png)
+
 Além disso, adicionei uma classificação para cada grupo de investidores comparando as operações realizadas com a média, sendo elas "baixa" para operações abaixo da média, "itermediária" para operações próximas a média e "alto" para operações acima da média. 
 
-Assim, foi gerado um dataframe onde é possível comparar os grupos dessa amostra estratificada e usá-lo para tomar decisões pensando nos diferentes públicos que estão investindo nesses títulos públicos. 
+![desafio08](../Evidencias/desafio08.png)
 
-OBS.: Mesmo com o recorte e a redução do volume dos dados foi necessário comprimir os arquivos csv para subi-los no repositório, pois o GitHub tem um limite de 100 MiB de dados por arquivo.
+Assim, foi gerado um dataframe onde é possível comparar os grupos dessa amostra estratificada e usá-lo para tomar decisões pensando nos diferentes públicos que estão investindo nesses títulos públicos. E, por fim, esse arquivo foi armazenado no serviço s3 da AWS por meio do script [upar_datasep](upar_dataset.py) assim como a base de dados original.
+
+Conforme está comprovado na imagem abaixo:
+
+![desafio09](../Evidencias/desafio09.png)
+
+E com isso, conclui o desafio.
+
+1) OBS.: Mesmo com o recorte e a redução do volume dos dados foi necessário comprimir os arquivos csv para subi-los no repositório, pois o GitHub tem um limite de 100 MiB de dados por arquivo.
+
+2) OBS.: Para fazer o scrip para upar o arquivo csv para o S3 foi necessário usar o caminho completo, pois no meu computador ele não estava reconhecendo o abreviado. 
+
