@@ -26,3 +26,5 @@ Para isso filtrei entre entre os meses de janeiro a junho, agrupei por Tipo de T
 Além disso, adicionei uma classificação para cada grupo de investidores comparando as operações realizadas com a média, sendo elas "baixa" para operações abaixo da média, "itermediária" para operações próximas a média e "alto" para operações acima da média. 
 
 Assim, foi gerado um dataframe onde é possível comparar os grupos dessa amostra estratificada e usá-lo para tomar decisões pensando nos diferentes públicos que estão investindo nesses títulos públicos. 
+
+OBS.: Mesmo com o recorte e a redução do volume dos dados foi necessário comprimir os arquivos csv para subi-los no repositório, pois o GitHub tem um limite de 100 MiB de dados por arquivo.
