@@ -66,3 +66,13 @@ Executando o container docker e fazendo a ingestão:
 
  ![ingestao](../Evidencias/ingestao2.png)
 
+ Resultado da ingestão:
+
+ ![resultado](../Evidencias/ingestao3.png)
+
+ ![resultado](../Evidencias/ingestao4.png)
+
+ E com isso conclui o desafio.
+
+ 
+
