@@ -1,12 +1,12 @@
 # Resumo
-Nesta sprint aprendi sobre os serviços de Data & Analytics da AWS, aprofundando cos conhecimentos de Athena e Lambda ao colocando a mão na massa nos laboratórios. 
+Nesta sprint, aprendi sobre os serviços de Data & Analytics da AWS, aprofundando os conhecimentos de Athena e Lambda ao colocar a mão na massa nos laboratórios. 
 
 
 # Exercícios
 
-Nessa Sprint realizei exercícios que exploraram: 
+Nesta Sprint, realizei exercícios que exploraram: 
 
-1) Configurar o Athena; criar nele um banco de dados e uma tabela através de uma query.
+1) Configurar o Athena, criar nele um banco de dados e gerar uma tabela. A partir disso, realizar uma consulta.
 
 A seguir as imagens da execução do exercício:
 
