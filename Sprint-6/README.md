@@ -10,13 +10,37 @@ Nessa Sprint realizei exercícios que exploraram:
 
 A seguir as imagens da execução do exercício:
 
+![Banco de Dados](./Exercicios/Lab-AWS-Athena/bancodedados.png)
 
+![Criar tabela](./Exercicios/Lab-AWS-Athena/tabela.png)
+
+![Conferir dados](./Exercicios/Lab-AWS-Athena/conferirdados.png)
+
+![Query](./Exercicios/Lab-AWS-Athena/query.png)
+
+[Aqui](./Exercicios/Lab-AWS-Athena/athena.zip) você pode acessar os arquivos gerados com as consultas. 
 
 2) Criar uma função no Lambda e construir um código python para ser executado dentro deste serviço utilizando layers. 
 
 A seguir as imagens da execução do exercício:
 
+![Criar função](./Exercicios/Lab-AWS-Lambda/função.png)
 
+![Script](./Exercicios/Lab-AWS-Lambda/script.png)
+
+![Camada1](./Exercicios/Lab-AWS-Lambda/camada1.png)
+
+![Camada2](./Exercicios/Lab-AWS-Lambda/camada2.png)
+
+![Camada3](./Exercicios/Lab-AWS-Lambda/camada3.png)
+
+![Camada4](./Exercicios/Lab-AWS-Lambda/camada4.png)
+
+![Teste](./Exercicios/Lab-AWS-Lambda/teste.png)
+
+[Aqui](./Exercicios/Lab-AWS-Lambda/Dockerfile) você acessa o arquivo dockerfile.
+
+[Aqui](./Exercicios/Lab-AWS-Lambda/minha-camada-pandas.zip) os arquivos compactados. 
 
 # Desafio
 
