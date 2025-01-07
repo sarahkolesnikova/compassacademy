@@ -1,76 +1,68 @@
-O objetivo do desafio desta sprint é praticar os conhecimentos de AWS.
 
-Para isso, era necessário criar um script python para tratar uma base de dados originária do Portal de Dados Abertos. 
+# Análise Exploratória
 
-Inciei o desafio delimitando o tema e a base de dados para elaboração do script.
+O tema para o desafio final da minha squad foi definido como "Filmes e séries de Crime/Guerra". Ao fazer uma análise exploratória no arquivo csv recebido 
 
-Escolhi como conjunto de dados dois arquivos do Ministério da Fazenda a respeito do título público de investimento chamado "Tesouro Direto": "Investidores do Tesouro Direto de 2024" e "Operações do Tesouro Direto", ambos em formato csv. 
+![CSV](../Evidencias/filmesguerra.png)
 
-Segundo o site do [Tesouro Nacional](https://www.tesourotransparente.gov.br/temas/divida-publica-federal/tesouro-direto), o programa Tesouro Direto é: "... um Programa do Tesouro Nacional desenvolvido em parceria com a B3 (bolsa de valores) para venda de títulos públicos federais para pessoas físicas, por meio da internet."
+e no site do TMDB 
 
-Foi necessário juntar os dois arquivos, pois eles se complementam (um com os dados dos investidores e outro com as operações financeiras).
+![TMDB](../Evidencias/tmdb.png)
 
-Os arquivos mencionados se tratavam de arquivos muito grandes, de Big Data. Como eu não possuo uma máquina adequada para lidar com eles, então fiz um recorte para um dataset com os investidores que se cadastraram no programa em 2024 e operaram nele. 
+pude definir como hipotese inicial que:
 
-Confira o tratamento nas imagens a seguir:
+**aparentemente, o tema principal desse gênero nos últimos 20 anos foi Segunda Guerra Mundial**.
 
-![evidencia01](../Evidencias/recorte01.png)
+Assim, pude estabelecer as seguintes perguntas abrangendo os quatro tipos de análise de dados e uma combinação delas:
 
-![evidencia02](../Evidencias/recorte02.png)
+**- Análise Descritiva**
 
-![evidencia03](../Evidencias/recorte03.png)
+Qual é a distribuição dos orçamentos dos filmes sobre a Segunda Guerra Mundial ao longo dos anos 2000 a 2020? Como isso se relaciona com as bilheterias?
 
-![evidencia04](../Evidencias/recorte04.png)
+**- Análise Diagnóstica**
+Por que filmes de guerra com temática da Segunda Guerra Mundial continuam a ser populares mesmo décadas após o fim do conflito?
 
-![evidencia05](../Evidencias/recorte05.png)
+**-Análise Preditiva**
 
-![evidencia06](../Evidencias/recorte06.png)
+Quais são os principais fatores que influenciaram no desempenho dos filmes sobre a Segunda Guerra Mundial nas bilheterias?
 
-![evidencia07](../Evidencias/recorte07.png)
+**-Análise Prescritiva**
 
-![evidencia08](../Evidencias/recorte08.png)
+Quais são as melhores práticas para a produção de um filme sobre a Segunda Guerra Mundial de sucesso comercial?
 
+**-Análise Combinada**
 
-Para fazer esse recorte, usei a biblioteca polars do python.
+Quais são as oportunidades para a criação de filmes inovadores que atendam às demandas do público?
 
-Após fazer o recorte, consegui subir o arquivo csv para o serviço S3 da AWS e prossegui para a análise da base de dados com a biblioteca pandas.
+Um bom motivo para esse tema de análise é:
 
-Em um primeiro momento, importei as bibliotecas citadas nas orientações, li o arquivo csv e identifiquei a necessidade de fazer conversões de dados em algumas colunas para fazer a análise. 
+- identificar como a Segunda Guerra Mundial é representada na cultura popular e como essa representação evolui ao longo do tempo; 
+ 
+- identificar padrões e tendências na narrativa; 
 
+- ao analisar como os filmes sobre a Segunda Guerra Mundial são recebidos pelo público, podemos entender como esses filmes moldam a memória coletiva e influenciam a visão que as pessoas têm sobre o passado;
 
-Veja algumas manipulações abaixo:
+ - ajudar a identificar oportunidades de mercado, a avaliar o potencial de sucesso de novos projetos e a tomar decisões mais informadas sobre a produção e distribuição de filmes. 
 
-![desafio01](../Evidencias/desafio01.png)
+ Essas perguntas abordam diferentes aspectos e, com elas, é possível obter bons insights e identificar oportunidades de negócios através das KPI's da indústria cinematográfica. 
 
-![desafio02](../Evidencias/desafio02.png)
+ Com isso, segui para a primeira etapa do desafio final.
 
-![desafio03](../Evidencias/desafio03.png)
+ # ETAPA 1 - INGESTÃO BATCH
 
-![desafio04](../Evidencias/desafio04.png)
+ Nesta etapa, iniciei criando um código python para subir os arquivos CSVs para um bucket definido com RAW Zone no AWS S3 conforme o modelo de gravação indicado nas orientações.
 
-![desafio05](../Evidencias/desafio05.png)
+ Segue imagem com o código:
 
-Como questão norteadora, busquei traçar o perfil  dos investidores que aderiram ao tesouro direto em 2024 e operaram na modalidade compra no primeiro semestre. 
+ ![codigo](../Evidencias/codigopython.png)
 
-Para isso, filtrei entre entre os meses de janeiro a junho, agrupei por Tipo de Título, Mês da Operação, Genero, Profissão, UF do Investidor e agreguei esses dados com a média das idades e a soma da quantidade de compras realizadas. 
+ Logo após, criei um script para um arquivo Dockerfile para criar um container que fizesse o upload dos arquivos para o AWS s3.
 
-![desafio06](../Evidencias/desafio06.png)
+ Podemos conferir na imagem a seguir esse script e a criação da imagem do container:
 
-![desafio07](../Evidencias/desafio07.png)
+ ![ingestao](../Evidencias/ingestao1.png)
 
-Além disso, adicionei uma classificação para cada grupo de investidores comparando as operações realizadas com a média, sendo elas "baixa" para operações abaixo da média, "itermediária" para operações próximas da média e "alto" para operações acima da média. 
+Executando o container docker e fazendo a ingestão:
 
-![desafio08](../Evidencias/desafio08.png)
-
-Assim, foi gerado um dataframe onde é possível comparar os grupos dessa amostra estratificada e usá-lo para tomar decisões pensando nos diferentes públicos que estão investindo nesses títulos públicos. E, por fim, esse arquivo foi armazenado no serviço S3 da AWS por meio do script [upar_datasep](upar_dataset.py) assim como a base de dados original.
-
-Conforme está comprovado na imagem abaixo:
-
-![desafio09](../Evidencias/desafio09.png)
-
-E com isso, concluí o desafio.
-
-1) OBS.: Mesmo com o recorte e a redução do volume dos dados, foi necessário comprimir os arquivos csv para subí-los no repositório, pois o GitHub tem um limite de 100 MiB de dados por arquivo.
-
-2) OBS.: Para fazer o script para upar o arquivo csv para o S3, foi necessário usar o caminho completo, pois no meu computador ele não reconhecia o abreviado. 
+ ![ingestao](../Evidencias/ingestao2.png)
 

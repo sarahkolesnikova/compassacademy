@@ -17,7 +17,7 @@
 
 **Outras experiências:** Docente contratada na educação básica há 6 anos na rede pública estadual de São Paulo. Trabalhei durante 6 meses como professora substituta no IFSP - *Campus* São Paulo na educação técnica e tecnológica, lecionando disciplinas de Matemática em cursos superiores. Também já trabalhei como supervisora de operações por 1 ano. 
 
-**Informação Complementar:** Em 2023 realizei um curso profissionalizante em Engenharia de Dados pela Impacta Tecnologia, através do programa Qualifica SP. E estou cursando a atualização profissional em Pensamento Computacional e Programação: Ensino Médio, oferecida pela Alura/EFAPE. 
+**Informação Complementar:** Em 2023 realizei um curso profissionalizante em Engenharia de Dados pela Impacta Tecnologia, através do programa Qualifica SP.
 
 **Conhecimentos:**
 Soft Skills - Organização, Trabalho em equipe, Empatia, Adaptabilidade, Mentalidade sistêmica e analítica, resolução de problemas, liderança, comunicação eficaz, escuta ativa. 
@@ -39,4 +39,6 @@ Ferramentas - VS Code, Excel, Power BI, SQL Serve, Git e GitHub, Trello.
 
 4. [Sprint-4](Sprint-4/README.md)
 
-5. [Sprint-5] (Sprint-5/README.md)
+5. [Sprint-5](Sprint-5/README.md)
+
+6. [Sprint-6](Sprint-6/README.md)
