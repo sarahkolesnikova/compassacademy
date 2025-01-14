@@ -8,7 +8,7 @@ spark = SparkSession.builder.appName("ContarPalavras").getOrCreate()
 dados = spark.read.text("/content/drive/MyDrive/Colab Notebooks/README.md")
 
 # Dividir as linhas em palavras
-palavras = dados.select(explode(split(lower(dados["value"]), "\s+")).alias("palavras"))
+palavras = dados.select(explode(split(lower(dados["value"]), r"\s+")).alias("palavras"))
 
 # Filtrar palavras vazias
 palavras_filtradas = palavras.filter(palavras["palavras"] != "")
@@ -21,6 +21,7 @@ palavrasContadasOrg = palavrasContadas.orderBy("count", ascending=False)
 
 # Mostrar os resultados
 palavrasContadasOrg.show(palavrasContadasOrg.count())
+
 
 # Parar a sessão Spark
 spark.stop()
