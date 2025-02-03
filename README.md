@@ -44,3 +44,5 @@ Ferramentas - VS Code, Excel, Power BI, SQL Serve, Git e GitHub, Trello.
 6. [Sprint-6](Sprint-6/README.md)
 
 7. [Sprint-7](Sprint-7/README.md)
+
+8. [Sprint-8](Sprint-8/README.md)
