@@ -161,7 +161,7 @@ folder_name = "Trusted/Local/Parquet/movies"
 s3 = boto3.client('s3')
 
 # Lendo o arquivo parquet
-movies = movies = spark.read.parquet(parquet_file_path)  
+movies = spark.read.parquet(parquet_file_path)  
 
 # Tratamento dos dados da coluna 'notaMedia': convertendo para double e arredondando para uma casa decimal
 movies = movies.withColumn("notaMedia", round(col("notaMedia").cast("double"), 1))
