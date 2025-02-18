@@ -36,7 +36,7 @@ A partir disso, elaborei o modelo conceitual usando a ferramenta Br Modelo. Segu
 
 E com isso segui para a próxima etapa.
 
-# PROCESSAMENTO CAMADA REFINE
+# PROCESSAMENTO CAMADA REFINED
 
 Como alguns campos eram mutivalorados, além de criar as tabelas das dimensões e tabela fato na camada refined, foi necesário fazer um tratamento dos dados e tabelas associativas, para resolver a relação muitos para muitos. As tabelas associativas são formadas por uma chave composta por duas Fks das tabelas, que se relacionam e faz com que os valores em cada linha sejam únicos. Além das Fks das tabelas que se relacionam, podem haver campos com características daquela relação.
 
