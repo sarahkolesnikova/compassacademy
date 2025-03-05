@@ -9,7 +9,7 @@
 
 **Curso:** Bacharelado em Ciência de Dados na UNIVESP, com dupla titulação em  Tecnologia da Informação - Ênfase em Análise de Dados.
 
-**Semestre atual:** 3º semestre
+**Semestre atual:** 4º semestre
 
 **Formação anterior:** Licenciatura em Matemática - UNIP (2018)
 
@@ -22,7 +22,7 @@
 **Conhecimentos:**
 Soft Skills - Organização, Trabalho em equipe, Empatia, Adaptabilidade, Mentalidade sistêmica e analítica, resolução de problemas, liderança, comunicação eficaz, escuta ativa. 
 
-Hard Skills - Matemática, Estatística, C (iniciante), HTML, CSS, JavaScript (iniciante), Python (básico), SQL (iniciante), Linux, Shell Script, ETL, Scrum, Kanban. 
+Hard Skills - Matemática, Estatística, C (iniciante), HTML, CSS, JavaScript (iniciante), Python (básico), SQL (iniciante), Linux, Shell Script, ETL, Scrum, Kanban, Docker, AWS. 
 
 Ferramentas - VS Code, Excel, Power BI, SQL Serve, Git e GitHub, Trello. 
 
@@ -46,3 +46,7 @@ Ferramentas - VS Code, Excel, Power BI, SQL Serve, Git e GitHub, Trello.
 7. [Sprint-7](Sprint-7/README.md)
 
 8. [Sprint-8](Sprint-8/README.md)
+
+9. [Sprint-9](./Sprint-9/README.md)
+
+10. [Sprint-10](./Sprint-10/README.md)
