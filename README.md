@@ -1,7 +1,7 @@
 # Apresentação
 
  ## Olá, sou a Sarah Kolesnikova! 
- ![Foto do arquivo pessoal](img/Sarah.jpg)
+ ![Foto do arquivo pessoal](foto.png)
 
 **Localização:** São Paulo - SP, Brasil.
 
@@ -31,22 +31,22 @@ Ferramentas - VS Code, Excel, Power BI, SQL Serve, Git e GitHub, Trello.
 
 ## Sprints 
 
-1. [Sprint 1](Sprint-1/README.md)
+1. [Sprint 1](Sprint-1/README.md) - GitHub e Linux (Projeto: processador e gerador de relatório de vendas em Shell Script)
 
-2. [Sprint 2](Sprint-2/README.md) 
+2. [Sprint 2](Sprint-2/README.md) - Modelagem de Dados, SGBDs e AWS - Fundamentals (Projeto: modelagem relacional e dimensional de uma Locadora de Veículos)
 
-3. [Sprint 3](Sprint-3/README.md)
+3. [Sprint 3](Sprint-3/README.md) - Python para Análise de Dados e AWS - Economias e Práticas Recomendadas (Projeto: EDA e visualização com Python/ Pandas e MatplotLib)  
 
-4. [Sprint-4](Sprint-4/README.md)
+4. [Sprint-4](Sprint-4/README.md) - Programação Funcional em Python, conteinerização Docker e computação em nuvem AWS (Projeto: Script executável em um container)
 
-5. [Sprint-5](Sprint-5/README.md)
+5. [Sprint-5](Sprint-5/README.md) - AWS como ambiente de Trabalho e Análise de dados reais com Python (Projeto: Relatório sobre o perfil de investidores no Tesouro Direto em 2024)
 
-6. [Sprint-6](Sprint-6/README.md)
+6. [Sprint-6](Sprint-6/README.md) - Data & Analytics na AWS (Projeto: Pipeline de Dados da ingestão à Análise na AWS - Gerando Insights sobre filmes de guerra a partir da API do TMDB - parte 1)
 
-7. [Sprint-7](Sprint-7/README.md)
+7. [Sprint-7](Sprint-7/README.md) - Processamento de dados com Apache Spark e Python (Projeto: Pipeline de Dados da ingestão à Análise na AWS - Gerando Insights sobre filmes de guerra a partir da API do TMDB - parte 2)
 
-8. [Sprint-8](Sprint-8/README.md)
+8. [Sprint-8](Sprint-8/README.md) - Camadas de um Datalake (Projeto: Pipeline de Dados da ingestão à Análise na AWS- Gerando Insights sobre filmes de guerra a partir da API do TMDB - parte 3)
 
-9. [Sprint-9](./Sprint-9/README.md)
+9. [Sprint-9](./Sprint-9/README.md) - Modelagem multidimensional e manipulação de dataframes (Projeto: Pipeline de Dados da ingestão à Análise na AWS- Gerando Insights sobre filmes de guerra a partir da API do TMDB - parte 4)
 
-10. [Sprint-10](./Sprint-10/README.md)
+10. [Sprint-10](./Sprint-10/README.md) - Visualização de dados com o Amazon Quicksight (Projeto: Pipeline de Dados da ingestão à Análise na AWS- Gerando Insights sobre filmes de guerra a partir da API do TMDB - Entrega Final)
